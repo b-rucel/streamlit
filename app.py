@@ -4,6 +4,24 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 
 
+st.title("Hello World 🐙")
+st.markdown(
+    """ 
+    This is a :blue[**Streamlit**] app.
+
+    You can use it to build and share beautiful web apps for your data science projects.
+
+    **There's :rainbow[so much] you can build!**
+  
+    Gathering some examples to showcase what Streamlit can do.
+    """
+)
+
+if st.button("Send balloons!"):
+    st.balloons()
+
+
+
 # streamlit bar chart
 # Create a sample dataframe
 data = pd.DataFrame({
